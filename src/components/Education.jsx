@@ -63,10 +63,10 @@ const Education = () => (
             {/* Card */}
             <div className="bg-white rounded-xl shadow-md px-6 py-5 w-full max-w-md text-center relative z-10 hover:shadow-lg transition-shadow duration-300">
               <GraduationCap className="w-6 h-6 text-indigo-500 mx-auto mb-2" />
-              <h3 className="text-lg font-semibold text-gray-900">{edu.title}</h3>
-              <p className="text-gray-600 text-sm mt-1">{edu.institute}</p>
-              <p className="text-gray-500 text-xs mt-2">{edu.years}</p>
-              <p className="text-indigo-600 text-sm mt-1 font-medium">{edu.grade}</p>
+              <h3 className = "text-lg font-semibold text-gray-900">{edu.title}</h3>
+              <p  className = "text-gray-600 text-sm mt-1">{edu.institute}</p>
+              <p  className = "text-gray-500 text-xs mt-2">{edu.years}</p>
+              <p  className = "text-indigo-600 text-sm mt-1 font-medium">{edu.grade}</p>
             </div>
           </motion.div>
         ))}

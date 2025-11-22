@@ -17,7 +17,6 @@ import { Analytics } from "@vercel/analytics/next"
 const App = () => {
   return (
    <>
-   <Analytics/>
     <div className="pt-5">
         <Navbar/>
         <Hero/>
@@ -28,7 +27,7 @@ const App = () => {
         <Portfolio/>
       <Contact/>
       <Footer/>
-
+      <Analytics/>
     </div>
    </>
   )

@@ -10,11 +10,14 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import { Analytics } from "@vercel/analytics/next"
+
 
 
 const App = () => {
   return (
    <>
+   <Analytics/>
     <div className="pt-5">
         <Navbar/>
         <Hero/>
